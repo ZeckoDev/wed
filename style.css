@@ -1,0 +1,488 @@
+:root {
+    --blue: rgb(0, 0, 255);
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgb(0 0 0/ 0.5);
+
+}
+
+body{
+    font-size: 1.2 rem;
+    font-family:  "Poppins", sans-serif; 
+    min-height: 400px;
+    overflow-x: hidden;
+}
+
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: -10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg_bef.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#bghome{
+        position: relative;
+        background-image: url('img/bghome2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 1rem;
+        overflow: hidden;
+}
+
+#dear{
+    font-family: "Concert One", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#sen{
+    font-size: 4rem;
+}
+#salam p{
+    font-size: 30rem;
+}
+
+#t{
+   font-weight: bold; 
+}
+#p1, #p2{
+    font-weight: bold; 
+}
+.hero{
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero h1, .hero h4, .hero p {
+    text-shadow: var(--shadow);
+}
+
+#nam{
+    background-color: transparent;
+    color: white;
+    font-family: "Tangerine", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    font-size: 5rem;
+
+}
+
+#wed{
+    padding-top: 0rem;
+    margin-top: 16rem;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 2rem;
+}
+
+#wed2{
+    color: rgb(0, 0, 255);
+    font-family: "DM Serif Display", serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+.home h1{
+    font-family: "Tangerine", cursive;
+    font-size: 6rem;
+    color: rgb(18, 29, 172);
+    font-weight: bold;
+}
+
+
+.hero a{
+    color: black;
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+
+.mynavbar{
+    background-color: rgba(1, 1, 1, 0.3) IMP !important;
+}
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title{
+    font-family: 'sacramento';
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+
+.mynavbar .nav-link{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Playfair Display";
+    margin-top: 2rem;
+}
+
+.home{
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -5rem;
+    padding-top: 4.5rem;
+    width: 100%;
+}
+
+#gal{
+    color: rgb(0, 0, 255);
+    font-family: "DM Serif Display", serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+
+#bis{
+    padding-top: 2rem;
+    color: rgb(0, 0, 255);
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+.info h2{
+    color: rgb(0, 0, 255);
+    font-family: "DM Serif Display", serif;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: -3rem;
+}
+
+.home h3{
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: -7rem;
+}
+
+
+.home p{
+    font-size: 1.1rem;
+    color: #666;
+}
+
+
+.home .couple{
+    margin-top: 70px;
+}
+
+.home .couple h3{
+    font-family: "Tangerine", cursive;
+    color: rgb(18, 29, 172);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.home .couple img{
+    width: 100%;
+    
+}
+
+.home .heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(65px);
+}
+
+.home .heart i{
+    margin: auto;
+    color: rgb(2, 2, 253);
+}
+
+
+.info{
+    
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+.info .description{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.info .card{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgb(10, 10, 10) !important;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.info .card-header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.info .card-body{
+    font-size: 1.7rem;
+}
+
+.info .card-footer{
+    border-top: 2px solid rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#maps{
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+} 
+
+#loc{
+    font-size: 1.7rem;
+}
+#gifts span{
+    color: rgb(0, 0, 255);
+    font-family: "DM Serif Display", serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+#bank{
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#copy{
+    font-family: 'Playfair Display', serif;
+    color: #343a40;
+}
+
+.audio-icon-wrapper{
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+
+
+footer{
+    padding: 3rem;
+    background-color: bisque;
+    color: black;
+    
+}
+#g{
+    background: transparent;
+}
+
+.gift-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .gift-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .gift-card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .gift-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .gift-card-body {
+    padding: 30px;
+  }
+
+  .bank-logo {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .account-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .account-name {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .btn-copy {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-copy:hover {
+    background-color: #218838;
+  }
+  .copy-message {
+    color: #28a745;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .copy-message.show {
+    opacity: 1;
+  }
+
+  
+  .comments h2 {
+    color: #007bff;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .comment-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .comment-card .name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .comment-card .date {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .comment-card .message {
+    font-size: 1rem;
+  }
+
+  
+.offcanvas-size-sm {
+    transition: transform 0.3s ease-in-out;
+  }
+
+/* Media Query */
+/*  */
+
+@keyframes rotating {
+    from{
+        transform: rotate(0);
+    }  
+
+    to{
+        transform: rotate(360deg);
+    }
+} 
+
+@media (max-widthh: 1200px){
+    .home .heart{
+        transform: translateX(-50%) translateY(45px)!important;
+    }
+}
+
+
+/* Laptop */
+@media (max-width: 992px){
+    html{
+        font-size: 75%;
+    }
+    
+    .simply-countdown>.simply-section{
+    padding: 70px;
+}
+
+.home .heart{
+    display: none;
+}
+}
+
+
+/* Tablet */
+@media (max-width: 768px){
+    html{
+        font-size: 65%;
+    }.simply-countdown>.simply-section{
+    padding: 60px;
+    margin: 5px;
+}
+.mynavbar .nav-link{
+    font-size: 1.5rem;
+    text-align: left;
+    size: 50rem;
+
+}
+.sticky-top {
+    overflow: hidden;
+}
+.offcanvas-size-sm {
+    --bs-offcanvas-width: 150px !important;
+  }
+}
+
+
+/* Phone */
+@media (max-width: 576px){
+    html{
+        font-size: 60%;
+    }.simply-countdown>.simply-section{
+    padding: 40px;
+    margin: 3px;
+}
+.bghome{
+    overflow-x: hidden;
+}
+}
